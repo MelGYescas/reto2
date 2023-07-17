@@ -15,7 +15,7 @@ const Detail = async () => {
             <p>User Id: ${post.userId}</p>
             <p>Detalle: ${post.body}</p>
         </div>
-        <a href="/" class="t-home">Regresar</a>
+        <a href="https://melgyescas.github.io/reto2/dist/index" class="t-home">Regresar</a>
         `;
         return view;
     } else {

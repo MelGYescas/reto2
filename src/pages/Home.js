@@ -6,7 +6,7 @@ const Home = async () => {
 
         const tableRows = data.map(post => {
         return `
-            <tr>
+            <tr class="table-row">
             <td><a href="#/post/${post.id}" data-id="${post.id}">${post.userId}</a></td>
             <td><a href="#/post/${post.id}" data-id="${post.id}">${post.id}</a></td>
             <td><a href="#/post/${post.id}" data-id="${post.id}">${post.title}</a></td>
